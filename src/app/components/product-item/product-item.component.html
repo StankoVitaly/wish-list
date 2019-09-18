@@ -1,0 +1,7 @@
+<div class="image" [ngStyle]="{'background-image': 'url('+ product.image +')'}"></div>
+<div class="description">
+  <div class="title">{{product.title}}</div>
+  <div class="price">{{product.price | currency }}</div>
+  <div class="text" [innerHtml]="product.description"></div>
+  <div class="button" (click)="add(product)">Add to list</div>
+</div>
