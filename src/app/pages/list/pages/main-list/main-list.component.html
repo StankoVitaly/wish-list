@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Main list</h1>
+    </div>
+    <div class="com-sm-12">
+      <div class="product-list">
+        <app-product-item *ngFor="let product of products;"
+                          [product]="product"
+                          (addToWishList)="onAddToWishList($event)"
+                          [showRemoveIcon]="showRemoveIcon"
+                          [show]="show">
+        </app-product-item>
+      </div>
+    </div>
+  </div>
+</div>

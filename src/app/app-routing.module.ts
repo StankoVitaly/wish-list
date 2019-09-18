@@ -10,6 +10,10 @@ const routes: Routes = [
     path: 'list',
     loadChildren: () => import(`./pages/list/list.module`).then(m => m.ListModule)
   },
+  // {
+  //   path: 'wish-list',
+  //   loadChildren: () => import(`./pages/wish-list/wish-list.module`).then( m => m.WishListModule)
+  // }
 ];
 
 @NgModule({

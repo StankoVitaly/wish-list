@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #ffffff;
+  z-index: 1;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        list-style: none;
+        margin-right: 20px;
+        line-height: 80px;
+        a {
+          color: #aaaaaa;
+          font-size: 14px;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-decoration: none;
+          &.active {
+            color: #000000;
+          }
+        }
+      }
+    }
+    .wish-icon {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      outline: none;
+      cursor: pointer;
+      .counter {
+        position: absolute;
+        top: -10px;
+        right: 0;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
       "title": "MacBook Pro 15' 2018",
       "description": "1.4GHz quad-core 8th-generation Intel Core i5 processor / Turbo Boost up to 3.9GHz / Intel Iris Plus Graphics 645 / 8GB 2133MHz LPDDR3 memory / 256GB SSD storage1 / Retina display with True Tone / Touch Bar and Touch ID / Two Thunderbolt 3 ports",
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-space-select-201807?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1529520060550",
-      "price": 1800,
+      "price": 1899,
       "status": false,
       "id": 1
     },
@@ -20,7 +20,7 @@
       "title": "iPhone X",
       "description": "Liquid Retina HD display / 6.1-inch (diagonal) all-screen LCD Multi-Touch display with IPS technology / 1792-by-828-pixel resolution at 326 ppi / 1400:1 contrast ratio (typical / True Tone display /Wide color display (P3)",
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xr-white-select-201809?wid=470&hei=556&fmt=png-alpha&.v=1551226036668",
-      "price": 900,
+      "price": 999,
       "status": false,
       "id": 3
     },
@@ -33,7 +33,14 @@
       "id": 4
     }
   ],
-  "wishlist": [
-
+  "wish-list": [
+    {
+      "title": "MacBook Pro 15' 2018",
+      "description": "1.4GHz quad-core 8th-generation Intel Core i5 processor / Turbo Boost up to 3.9GHz / Intel Iris Plus Graphics 645 / 8GB 2133MHz LPDDR3 memory / 256GB SSD storage1 / Retina display with True Tone / Touch Bar and Touch ID / Two Thunderbolt 3 ports",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-space-select-201807?wid=452&hei=420&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1529520060550",
+      "price": 1899,
+      "status": false,
+      "id": 1
+    }
   ]
 }
